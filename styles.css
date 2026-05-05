@@ -86,9 +86,9 @@ img { max-width: 100%; display: block; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, rgba(18,20,17,.82), rgba(18,20,17,.48), rgba(18,20,17,.86)),
-    url("assets/hero.jpg") center/cover;
-  filter: saturate(.95) contrast(1.05);
+    linear-gradient(90deg, rgba(18,20,17,.48), rgba(18,20,17,.18), rgba(18,20,17,.50)),
+    url("assets/hero.jpg") 60% center/cover;
+  filter: saturate(1.08) contrast(1.05);
 }
 .hero::after {
   content: "";
