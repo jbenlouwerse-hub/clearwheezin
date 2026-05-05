@@ -87,7 +87,7 @@ img { max-width: 100%; display: block; }
   inset: 0;
   background:
     linear-gradient(90deg, rgba(18,20,17,.82), rgba(18,20,17,.48), rgba(18,20,17,.86)),
-    url("https://lh3.googleusercontent.com/sitesv/AA5AbUAeyKyyzN1LEtsC19BSlA8vpUZFnzVosJbK0-rQ55oH7v4c3xj4p_uXko3DBpxo5PQWb2lmIhMtT1ci_5YcYRoDFf8-x3QiSL_n0SI9H01Mg84mkld2jw6YH-CuDO0ZaAMUT-9Z7hXKpfEGXj1GFwaufapU2Bp6PkNzmiTFS7_0gTVU4U3RN8FNJiBp0UuNuzoQ7jpuvFK64K5htH7VzPLyXt1sLEsOnkcPMNk%3Dw1280") center/cover;
+    url("assets/hero.jpg") center/cover;
   filter: saturate(.95) contrast(1.05);
 }
 .hero::after {
