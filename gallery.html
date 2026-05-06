@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Clearwheezin' 2026</title>
+  <meta name="description" content="Photo gallery for Clearwheezin' at the Clearwater Ski Hill.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html">Clearwheezin'</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rules.html">Rules</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="venue.html">Venue</a>
+        <a class="active" href="gallery.html">Gallery</a>
+        <a class="register-small" href="https://docs.google.com/forms/d/e/1FAIpQLSf0vnquG6fOo9L4sW3HJ0bSzp4sh94oVX1bUGzyTu4oOgFHUw/viewform?usp=send_form">Register</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="kicker">Photos by Year</div>
+    <h1>Gallery</h1>
+    <p class="tagline">The course, the lodge, the climb, and the faces people make when they realize there is another lap.</p>
+    <p class="hero-copy">Photos are organized by event year. Future galleries can be added by uploading photos to a year folder and adding them to <code>gallery-data.js</code>.</p>
+  </section>
+
+  <main>
+    <div data-gallery></div>
+
+    <section class="section">
+      <div class="callout">
+        <h3>Adding photos later</h3>
+        <p>Recommended structure: <code>assets/gallery/2026/2026-001-start-line.jpg</code>, <code>assets/gallery/2027/2027-001-finish-area.jpg</code>, and so on. Keep images resized for web before uploading.</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="contact-section" aria-labelledby="contact-title">
+    <div class="contact-inner">
+      <div>
+        <div class="eyebrow">Contact Us</div>
+        <h2 id="contact-title">Questions? Ideas? Mild regrets?</h2>
+        <p>Reach out about registration, volunteering, sponsorship, race-day logistics, or anything else Clearwheezin’ related.</p>
+      </div>
+      <a class="button primary" href="mailto:info@clearwheezin.ca">info@clearwheezin.ca</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Clearwheezin’ · Clearwater Ski Hill · 566 Dunn Lake Rd, Clearwater BC</p>
+    <p><a href="index.html">Home</a> · <a href="rules.html">Rules</a> · <a href="schedule.html">Schedule</a> · <a href="venue.html">Venue</a> · <a href="gallery.html">Gallery</a></p>
+  </footer>
+
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <button class="lightbox-backdrop" data-lightbox-close aria-label="Close image preview"></button>
+    <div class="lightbox-panel" role="dialog" aria-modal="true" aria-label="Gallery image preview">
+      <button class="lightbox-close" data-lightbox-close aria-label="Close image preview">×</button>
+      <img data-lightbox-image alt="">
+      <p data-lightbox-caption></p>
+    </div>
+  </div>
+
+  <script src="gallery-data.js"></script>
+  <script src="gallery.js"></script>
+</body>
+</html>
