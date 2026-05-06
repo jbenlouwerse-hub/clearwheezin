@@ -250,14 +250,16 @@ p { margin: 0 0 16px; }
 }
 .contact-inner {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr;
   align-items: center;
+  justify-items: center;
   gap: 24px;
   padding: 30px;
   border: 1px solid var(--border);
   border-radius: 30px;
   background: rgba(255,255,255,.08);
   box-shadow: var(--shadow);
+  text-align: center;
 }
 .contact-inner h2 {
   font-size: clamp(1.8rem, 4vw, 3rem);
@@ -367,7 +369,6 @@ code {
 
 @media (max-width: 900px) {
   .gallery-item { grid-column: span 6; }
-  .contact-inner { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 640px) {
